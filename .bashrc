@@ -113,5 +113,5 @@ if ! shopt -oq posix; then
 fi
 
 if [[ $TERM = "xterm-kitty" ]]; then 
-	PS1='\u@\h\w\nλ >'
+	PS1='\u@\[\e[1m\]\h\[\e[0m\]:\w\nλ > '
 fi
