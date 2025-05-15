@@ -1,0 +1,15 @@
+g(seta para baixo) move uma linha para baixo, movendo no meio de blocos.
+:Ex é um explorer de files
+i insere,
+:qa! sai sem salvar e :q sai, e :w escreve a file.
+:n (nome da file), cria uma file.
+u da undo na ultima modificacao.
+:s/(oq quer substituir)/(substituicao)/g muda algo em uma linha.
+para mudar tudo globalmente rode g& apos esse ultimo comando de substituicao.
+gu e gU muda a capitalizacao de uma palavra
+gf abre a file q o cursor está em cima.
+gu$ altera a capitalizacao para ate o final da linha a partir do cursor
+/(oq quer pesquisar) pesquisa.
+P da put, ou seja cola.
+y da yank, ou seja, copia oq esta em visual.
+v entra em modo visual para voce selecionar um texto.

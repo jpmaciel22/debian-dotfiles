@@ -35,3 +35,6 @@
 *.color7:       #707880
 *.color15:      #c5c8c6
 
+!! URxvt Appearance
+!URxvt.font: xft:Monospace:pixelsize=20
+URxvt.font: 10x20
