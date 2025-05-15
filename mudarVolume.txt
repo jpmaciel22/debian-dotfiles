@@ -1,0 +1,3 @@
+amixer set Master 50%
+
+exemplo de como mudar volume para 50% por exemplo.
