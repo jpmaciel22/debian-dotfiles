@@ -1,0 +1,5 @@
+shred (nome da file) faz a file ser overwritten com conteudo random.
+shred -u (nome da file) , alem de dar overwrite da remove também.
+para usar o /dev/random faça, dd if=/dev/random of=(nome da file, ou dir enfim.)
+mesma coisa com /dev/zero... dd if=/dev/zero of=(nome da file ou dir....)
+
