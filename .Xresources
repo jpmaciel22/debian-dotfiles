@@ -1,6 +1,6 @@
 ! special
 *.foreground:   #c5c8c6
-*.background:   #1d1f21
+*.background: #1d1f21
 *.cursorColor:  #c5c8c6
 
 ! black
@@ -36,5 +36,10 @@
 *.color15:      #c5c8c6
 
 !! URxvt Appearance
-!URxvt.font: xft:Monospace:pixelsize=20
-URxvt.font: 10x20
+URxvt.font: xft:Monospace:pixelsize=18
+!URxvt*transparent: true
+!URxvt*shading: 10
+!URxvt*depth: 32
+URxvt*scrollBar: false
+*.alpha: 0.8
+!URxvt.font: 10x20

@@ -12,4 +12,4 @@ gu$ altera a capitalizacao para ate o final da linha a partir do cursor
 /(oq quer pesquisar) pesquisa.
 P da put, ou seja cola.
 y da yank, ou seja, copia oq esta em visual.
-v entra em modo visual para voce selecionar um texto.
+v entra em modo visual para voce selecionar um texto
