@@ -115,3 +115,13 @@ fi
 if [[ $TERM = "xterm-kitty" ]]; then 
 	PS1='\u@\[\e[1m\]\h\[\e[0m\]:\w\nλ > '
 fi
+
+if [[ $TERM = "st-256color" ]]; then
+	#transset-df "0.80" --id "$WINDOWID" > /dev/null
+	PS1='\u@\[\e[1m\]\h\[\e[0m\]:\w\nλ > '
+	
+fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
