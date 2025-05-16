@@ -118,7 +118,7 @@ fi
 
 if [[ $TERM = "st-256color" ]]; then
 	#transset-df "0.80" --id "$WINDOWID" > /dev/null
-	PS1='\[\e[31m\]u@\[\e[1;31m\]\h\[\e[0m\]:\w\nλ > \[\e[0m\]'
+	PS1='\[\e[31m\]\u\[\e[0m\]@\[\e[1;31m\]\h\[\e[0m\]:\w\nλ > \[\e[0m\]'
 	
 fi
 
